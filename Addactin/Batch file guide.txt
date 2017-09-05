@@ -1,0 +1,26 @@
+
+C:\Users\petri.ryynanen\workspace\addactin\bin;C:\Users\petri.ryynanen\workspace\addactin\Lib\*
+
+java org.testng.TestNG testng.xml
+
+
+
+
+
+
+
+
+
+set ProjectPath=C:\Selenium\Selenium_tests\DemoProject 
+
+echo %ProjectPath%
+
+"C:\Selenium\Selenium_tests\DemoProject"
+
+set classpath=%ProjectPath%\bin;%ProjectPath%\Lib\*
+
+echo %classpath%
+
+C:\Selenium\Selenium_tests\DemoProject\bin;C:\Selenium\Selenium_tests\DemoProject\Lib\*
+
+C:\Selenium\Selenium_tests\DemoProject java org.testng.TestNG %ProjectPath%\IEandFirefoxTests.xml
